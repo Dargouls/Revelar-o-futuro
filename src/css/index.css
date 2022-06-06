@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	background-color: black;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+
+	margin-top: 50px;
+}
+div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+	width: 400px;
+}
+
+input {
+	width: 100%;
+	padding: 15px;
+	margin-top: 10px;
+
+	box-sizing: border-box;
+
+	border: none;
+	border-radius: 4px;
+	outline-style: none;
+
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-size: larger;
+}
+
+.btn-confirm {
+	background-color: blueviolet;
+	color: aliceblue;
+
+	font-weight: 500;
+
+	cursor: pointer;
+}
+.btn-confirm:hover {
+	background-color: rgb(112, 26, 194);
+}
+h1 {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+	margin-bottom: 10px;
+
+	color: aliceblue;
+}
+
+#conteudo-mutavel {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+	color: aliceblue;
+}
+.low-emphasis {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	color: grey;
+}
